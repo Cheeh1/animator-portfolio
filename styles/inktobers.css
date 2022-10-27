@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: congruency3D;
+    src: url(/fonts/congruency3D/Congruency3D.ttf);
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(/fonts/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(/fonts/inter/Inter-Medium.ttf);
+}
+
+.nav-bg {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(216, 216, 216);
+}
+
+.nav-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+}
+
+.nav-txt {
+    font-size: 2.2rem;
+    text-align: center;
+    color: rgb(192, 24, 24);
+    font-family: Anton;
+}
+
+.nav-item {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    font-weight: 800;
+    font-family: congruency3D;
+    font-size: 3.8rem;
+    margin-top: 25px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.nav-link-1 {
+    color: rgb(44, 44, 44);
+    letter-spacing: -0.5rem;
+}
+
+.nav-link-2 {
+    color: rgb(156, 156, 156);
+    letter-spacing: -0.5rem;
+}
+
+.nav-link-2:hover {
+    color: rgb(44, 44, 44);
+}
+
+.main-header {
+    font-size: 5.0rem;
+    font-family: congruency3D;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+}

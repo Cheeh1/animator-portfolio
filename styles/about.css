@@ -1,0 +1,157 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: congruency3D;
+  src: url(/fonts/congruency3D/Congruency3D.ttf);
+}
+
+@font-face {
+  font-family: Anton;
+  src: url(/fonts/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: inter;
+  src: url(/fonts/inter/Inter-Medium.ttf);
+}
+
+.nav-bg {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: rgb(216, 216, 216);
+}
+
+.nav-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+}
+
+.nav-txt {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(192, 24, 24);
+  font-family: Anton;
+}
+
+.nav-item {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  font-weight: 800;
+  font-family: congruency3D;
+  font-size: 3.8rem;
+  margin-top: 25px;
+}
+
+.nav-link {
+  letter-spacing: -50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.nav-link-1 {
+  color: rgb(156, 156, 156);
+  letter-spacing: -0.5rem;
+}
+
+.nav-link-1:hover {
+  color: rgb(44, 44, 44);
+}
+
+.nav-link-2 {
+  color: rgb(44, 44, 44);
+  letter-spacing: -0.5rem;
+}
+
+.main {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+}
+
+.main-abt {
+  font-size: 5.0rem;
+  font-weight: 800;
+  font-family: congruency3D;
+  text-align: center;
+}
+
+.main-flex {
+  display: flex;
+  /* gap: 30px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.main-img {
+  max-width: 300px;
+  padding-left: 70px;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 70px;
+}
+
+.main-txt {
+  width: 80%;
+  font-size: 2.0rem;
+  text-align: center;
+  font-family: inter;
+  font-weight: 500;
+}
+
+.email {
+  color: rgb(192, 10, 10);
+  font-weight: 700;
+}
+
+.logo-flex {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  opacity: 0.2;
+}
+
+.footer-txt {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: inter;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(156, 156, 156);
+}
+
+
+@media screen and (max-width: 480px) {
+  .main-flex {
+    flex-direction: column;
+  }
+
+  .sub-flex {
+    font-size: 1.2rem;
+  }
+}
